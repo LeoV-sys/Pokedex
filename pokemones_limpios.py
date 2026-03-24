@@ -18,7 +18,7 @@ df['altura_(m)'] = df['altura_(m)'].fillna(0)
 df['peso_(kg)'] = df['peso_(kg)'].fillna(0)
 
 #definimos columnas a borrar
-columnas_a_borrar = ['nombre_japones', 'contraataque_insecto', 'contraataque_siniestro', 'contraataque_dragon', 'contraataque_electrico', 'contraataque_hada', 'contraataque_lucha', 'contraataque_fuego', 'contraataque_volador', 'contraataque_fantasma', 'contraataque_planta', 'contraataque_tierra', 'contraataque_hielo', 'contraataque_normal', 'contraataque_veneno', 'contraataque_psiquico', 'contraataque_roca', 'contraataque_acero', 'contraataque_agua', 'pasos_base_para_eclosion', 'felicidad_base', 'clasificacion', 'crecimiento_experiencia' , 'altura_(m)', 'Puntos_de_salud', '%_macho', 'peso_(kg)']
+columnas_a_borrar = ['nombre_japones', 'contraataque_insecto', 'contraataque_siniestro', 'contraataque_dragon', 'contraataque_electrico', 'contraataque_hada', 'contraataque_lucha', 'contraataque_fuego', 'contraataque_volador', 'contraataque_fantasma', 'contraataque_planta', 'contraataque_tierra', 'contraataque_hielo', 'contraataque_normal', 'contraataque_veneno', 'contraataque_psiquico', 'contraataque_roca', 'contraataque_acero', 'contraataque_agua', 'pasos_base_para_eclosion', 'felicidad_base', 'clasificacion', 'crecimiento_experiencia' , 'altura_(m)', '%_macho', 'peso_(kg)', 'generacion']
 
 #borramos columnas
 df = df.drop(columns=columnas_a_borrar)
